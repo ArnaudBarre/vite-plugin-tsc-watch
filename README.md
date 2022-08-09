@@ -12,7 +12,7 @@ npm i -D vite-plugin-tsc-watch
 
 ```ts
 import { defineConfig } from "vite";
-import tscPlugin from "vite-plugin-tsc-watch";
+import { tscPlugin } from "vite-plugin-tsc-watch";
 
 export default defineConfig({
   plugins: [tscPlugin()],

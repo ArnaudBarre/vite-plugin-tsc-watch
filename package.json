@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-tsc-watch",
   "description": "Plugs tsc --watch into Vite dev server",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "license": "MIT",
   "author": "Arnaud Barré (https://github.com/ArnaudBarre)",
   "main": "dist/index.js",

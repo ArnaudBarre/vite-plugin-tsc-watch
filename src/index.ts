@@ -4,7 +4,7 @@ import { Plugin } from "vite";
 
 let started = false;
 
-export default function tscPlugin(): Plugin {
+export function tscPlugin(): Plugin {
   return {
     name: "tsc",
     apply: "serve",
