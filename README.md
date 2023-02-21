@@ -18,3 +18,7 @@ export default defineConfig({
   plugins: [tscPlugin()],
 });
 ```
+
+### Notes
+
+To ensure `.ts` and `.tsx` files are not needlessly transpiled to `.js` files littering your codebase, set `compilerOptions.noEmit: true` in your `tsconfig.json`.
