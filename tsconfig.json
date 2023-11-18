@@ -1,25 +1,23 @@
 {
   "include": ["src"],
   "compilerOptions": {
-    /* Target node 14 */
-    "module": "CommonJS",
-    "lib": ["ES2020"],
-    "target": "ES2020",
+    /* Target node 18 */
+    "module": "NodeNext",
+    "lib": ["ES2021"],
+    "target": "ES2021",
     "declaration": true,
     "outDir": "dist",
     "skipLibCheck": true,
-
-    /* Imports */
-    "moduleResolution": "node", // Allow `index` imports
-    "resolveJsonModule": true, // Allow json import
-    "forceConsistentCasingInFileNames": true, // Avoid difference in case between file name and import
-    "esModuleInterop": true, // Allow import fs from "fs"
+    "moduleResolution": "nodenext",
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
 
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "useUnknownInCatchVariables": true
+    "useUnknownInCatchVariables": true,
+    "noPropertyAccessFromIndexSignature": true
   }
 }
