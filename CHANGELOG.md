@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.2
+
+- Add vite@6 to peer dependency ranges
+
 ## 3.0.1
 
 - Rename named export from `tscPlugin` to `tscWatch`
