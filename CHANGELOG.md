@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.0
+
+- Support TS solution config
+
 ## 3.0.2
 
 - Add vite@6 to peer dependency ranges
