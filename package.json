@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-tsc-watch",
   "description": "Plugs tsc --watch into Vite dev server",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "license": "MIT",
   "author": "Arnaud Barré (https://github.com/ArnaudBarre)",
   "type": "module",
@@ -33,13 +33,13 @@
   },
   "peerDependencies": {
     "typescript": "^4 || ^5",
-    "vite": "^4 || ^5 || ^6"
+    "vite": "^4 || ^5 || ^6 || ^7"
   },
   "devDependencies": {
     "@types/node": "^20.17.8",
-    "publint": "^0.2.12",
+    "publint": "^0.3.12",
     "prettier": "3.0.3",
-    "typescript": "^5.7.2",
-    "vite": "^6.0.0"
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0"
   }
 }
